@@ -96,11 +96,6 @@ The architecture consists of the following components:
 ### Metrics Dashboard:
 - Visualize performance metrics, including model accuracy, response quality, and interaction history.
 
-
-Here's an updated README section with instructions for installing Poetry before continuing with the rest of the setup steps:
-
----
-
 ## Project Installation Guide
 
 ### Prerequisites
@@ -117,8 +112,8 @@ Ensure that you have the following installed on your system:
 Now, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/<your repository name>.git
-cd <your repository name>
+git clone https://github.com/uk1601/LLM_Benchmarking_Application.git
+cd LLM_Benchmarking_Application
 ```
 
 ### 2. Configure Secrets
@@ -184,13 +179,6 @@ Activate the Poetry-managed virtual environment:
 poetry shell
 ```
 
-### 6. Activate the Poetry Shell
-
-Activate the Poetry-managed virtual environment:
-
-```bash
-poetry shell
-```
 ### 6. Go the the Application Directory
 
 Change Directory to the folder containing Entrypoint
@@ -199,7 +187,7 @@ cd src
 ```
 
 
-### 8. Run the Streamlit App
+### 7. Run the Streamlit App
 
 To launch the application, execute the following command:
 
