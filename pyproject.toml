@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "assignment-1-gaia"
+version = "0.1.0"
+description = ""
+authors = ["suryaMadhav16 <rebbapragada.s@northeastern.edu>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.38.0"
+pandas = "^2.2.3"
+openai = "^1.47.0"
+jupyter = "^1.1.1"
+psycopg2-binary = "^2.9.9"
+datasets = "^3.0.0"
+mlcroissant = "^1.0.8"
+sqlalchemy = "^2.0.35"
+requests = "^2.32.3"
+pypdf2 = "^3.0.1"
+mutagen = "^1.47.0"
+python-dotenv = "^1.0.1"
+python-docx = "^1.1.2"
+python-pptx = "^1.0.2"
+matplotlib = "^3.9.2"
+notebook = "^7.2.2"
+ipykernel = "^6.29.5"
+plotly = "^5.24.1"
+tree = "^0.2.4"
+diagrams = "^0.23.4"
+google-cloud-storage = "^2.18.2"
+openpyxl = "^3.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
